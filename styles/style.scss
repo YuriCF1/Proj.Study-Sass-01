@@ -1,9 +1,29 @@
 // Variáveis
-$cor-principal: #FA58B6;
+$cor-principal: #fa58b6; //Se cria variável com o dolar $
 $cor-secundária: #270082;
 
-body {
+@mixin reset {
+  //Se cria função arroba
   margin: 0;
+  padding: 0;
+}
+
+@mixin cor-e-texto($cor-de-fundo, $cor-do-texto) {
+  width: 50%;
+  background-color: $cor-de-fundo;
+
+  .texto {
+    margin-top: 40%;
+    text-align: center;
+    font-size: 100px;
+    color: $cor-do-texto;
+  }
+}
+
+body {
+  @include reset()
+    //Chamando a função || Não precisa dos parenteses, se n tiver os parâmetros
+;
 }
 
 .container {
@@ -11,25 +31,10 @@ body {
   display: flex;
 
   .esquerda {
-    width: 50%;
-    background-color: $cor-principal;
-
-    .texto {
-      margin-top: 40%;
-      text-align: center;
-      font-size: 100px;
-      color: $cor-secundária;
-    }
+    @include cor-e-texto($cor-principal, $cor-secundária);
   }
 
   .direita {
-    width: 50%;
-    background-color: $cor-secundária;
-    .texto {
-      margin-top: 40%;
-      text-align: center;
-      font-size: 100px;
-      color: $cor-principal;
-    }
+    @include cor-e-texto($cor-secundária, $cor-principal);
   }
 }
