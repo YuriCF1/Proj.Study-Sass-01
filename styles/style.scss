@@ -1,3 +1,4 @@
+/* //________________________PRIMEIRO CAPÍTULO_______________________________
 // Variáveis
 $cor-principal: #fa58b6; //Se cria variável com o dolar $
 $cor-secundária: #270082;
@@ -38,3 +39,8 @@ body {
     @include cor-e-texto($cor-secundária, $cor-principal);
   }
 }
+
+*/
+
+//___________________________________________________SEGUNDO CAPÍTULO EM DIANTE____________________________________________________
+@import './abstract/base'
