@@ -1,29 +1,61 @@
-body {
+@charset "UTF-8";
+/* //________________________PRIMEIRO CAPÍTULO_______________________________
+// Variáveis
+$cor-principal: #fa58b6; //Se cria variável com o dolar $
+$cor-secundária: #270082;
+
+@mixin reset {
+  //Se cria função arroba
   margin: 0;
   padding: 0;
+}
+
+@mixin cor-e-texto($cor-de-fundo, $cor-do-texto) {
+  width: 50%;
+  background-color: $cor-de-fundo;
+
+  .texto {
+    margin-top: 40%;
+    text-align: center;
+    font-size: 100px;
+    color: $cor-do-texto;
+  }
+}
+
+body {
+  @include reset()
+    //Chamando a função || Não precisa dos parenteses, se n tiver os parâmetros
+;
 }
 
 .container {
   height: 100vh;
   display: flex;
+
+  .esquerda {
+    @include cor-e-texto($cor-principal, $cor-secundária);
+  }
+
+  .direita {
+    @include cor-e-texto($cor-secundária, $cor-principal);
+  }
 }
-.container .esquerda {
-  width: 50%;
-  background-color: #fa58b6;
+
+*/
+html,
+body {
+  font-family: "Roboto", sans-serif;
 }
-.container .esquerda .texto {
-  margin-top: 40%;
+
+nav {
   text-align: center;
-  font-size: 100px;
-  color: #270082;
 }
-.container .direita {
-  width: 50%;
-  background-color: #270082;
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
 }
-.container .direita .texto {
-  margin-top: 40%;
-  text-align: center;
-  font-size: 100px;
-  color: #fa58b6;
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
