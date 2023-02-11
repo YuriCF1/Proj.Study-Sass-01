@@ -8,21 +8,21 @@ body {
 }
 .container .esquerda {
   width: 50%;
-  background-color: blueviolet;
+  background-color: #FA58B6;
 }
 .container .esquerda .texto {
   margin-top: 40%;
   text-align: center;
   font-size: 100px;
-  color: aquamarine;
+  color: #270082;
 }
 .container .direita {
   width: 50%;
-  background-color: aquamarine;
+  background-color: #270082;
 }
 .container .direita .texto {
   margin-top: 40%;
   text-align: center;
   font-size: 100px;
-  color: blueviolet;
+  color: #FA58B6;
 }/*# sourceMappingURL=style.css.map */

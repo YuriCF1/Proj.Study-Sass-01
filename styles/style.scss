@@ -1,3 +1,7 @@
+// Variáveis
+$cor-principal: #FA58B6;
+$cor-secundária: #270082;
+
 body {
   margin: 0;
 }
@@ -8,24 +12,24 @@ body {
 
   .esquerda {
     width: 50%;
-    background-color: blueviolet;
+    background-color: $cor-principal;
 
     .texto {
       margin-top: 40%;
       text-align: center;
       font-size: 100px;
-      color: aquamarine;
+      color: $cor-secundária;
     }
   }
 
   .direita {
     width: 50%;
-    background-color: aquamarine;
+    background-color: $cor-secundária;
     .texto {
       margin-top: 40%;
       text-align: center;
       font-size: 100px;
-      color: blueviolet;
+      color: $cor-principal;
     }
   }
 }
