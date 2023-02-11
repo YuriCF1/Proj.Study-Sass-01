@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+
+  .esquerda {
+    width: 50%;
+    background-color: blueviolet;
+
+    .texto {
+      margin-top: 40%;
+      text-align: center;
+      font-size: 100px;
+      color: aquamarine;
+    }
+  }
+
+  .direita {
+    width: 50%;
+    background-color: aquamarine;
+    .texto {
+      margin-top: 40%;
+      text-align: center;
+      font-size: 100px;
+      color: blueviolet;
+    }
+  }
+}

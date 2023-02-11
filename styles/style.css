@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+.container .esquerda {
+  width: 50%;
+  background-color: blueviolet;
+}
+.container .esquerda .texto {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 100px;
+  color: aquamarine;
+}
+.container .direita {
+  width: 50%;
+  background-color: aquamarine;
+}
+.container .direita .texto {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 100px;
+  color: blueviolet;
+}/*# sourceMappingURL=style.css.map */
