@@ -12,6 +12,7 @@ nav {
         text-transform: uppercase;
         text-decoration: none;
         font-weight: bold;
+        // $cor-primaria: red; //AS VARIÁBEIS TAMBÉM TEM ESCOPOS NO SCSS
         color: $cor-primaria;
         &:hover {
           border-bottom: 2px solid $cor-secundaria;
