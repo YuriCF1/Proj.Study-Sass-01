@@ -108,10 +108,24 @@ nav ul li a:hover {
 #servicos .cards {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 2rem;
 }
 #servicos .cards .card {
   width: 360px;
   text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #1A120B;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #3C2A21;
+  line-height: 1.25rem;
 }
 #servicos .cards .card .img-container {
   padding-bottom: 2px;
