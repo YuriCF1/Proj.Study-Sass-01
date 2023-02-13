@@ -133,4 +133,18 @@ nav ul li a:hover {
 }
 #servicos .cards .card .img-container img {
   max-width: 100%;
+}
+
+#cupom {
+  background-color: #E5E5CB;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #1A120B;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.7142857143rem;
+  color: #1A120B;
 }/*# sourceMappingURL=style.css.map */
