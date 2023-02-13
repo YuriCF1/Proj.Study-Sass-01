@@ -147,4 +147,24 @@ nav ul li a:hover {
   margin: 2rem;
   font-size: 1.7142857143rem;
   color: #1A120B;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid rgba(255, 255, 255, 0.6);
+  background-color: white;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  width: 540px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #1A120B;
+  outline: none;
 }/*# sourceMappingURL=style.css.map */
