@@ -190,11 +190,23 @@ nav ul li a:hover {
 footer {
   text-align: center;
   font-size: 1.5rem;
-  borde-top: 2px solid #1A120B;
+  border-top: 2px solid #1A120B;
   margin-top: 1rem;
   padding: 1.2rem;
   background: linear-gradient(to right, #1A120B, #3C2A21, #E5E5CB, #E5E5CB);
 }
 footer i {
   color: red;
+}
+
+.sobre {
+  margin: 2em;
+  font-size: 1.3636363636rem;
+  text-align: center;
+}
+.sobre h3 {
+  font-size: 1.5789473684rem;
+  font-weight: bold;
+  color: #1A120B;
+  margin-bottom: 1.5em;
 }/*# sourceMappingURL=style.css.map */
